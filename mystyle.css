@@ -1,0 +1,48 @@
+/*   マークダウン用
+--------------------------------------------------  */
+.markdown  {
+  width:100%;
+  height:auto;
+  overflow:scroll;
+  background-color:#ffffff; 
+}
+.showdown {
+  background-color:#ffffff
+}
+.showdown img {
+  height:auto;
+  width:100%;
+}
+.marked table{
+  border-collapse: collapse;
+}
+.marked th{
+  padding: 6px;
+  text-align: left;
+  vertical-align: top;
+  color: #333;
+  background-color: #eee;
+  border: 1px solid #b9b9b9;
+}
+.marked td{
+  padding: 6px;
+  background-color: #fff;
+  border: 1px solid #b9b9b9;
+}
+code {
+  border-radius: 2px;
+  display: inline-block;
+  border: 1px solid #d3d6db;
+  background-color: #f9f9f9;
+  padding: 1px 5px;
+  margin: 3px;
+}
+
+/*   グリッドシステム用
+--------------------------------------------------  */
+
+/* カラム落ちを防ぐための flexbox */
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
